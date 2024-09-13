@@ -14,7 +14,9 @@ return function(theme)
             spec.ln("LazyH1", "LazyButtonActive"),
             spec.cf("LazyH2", theme.plugin_lazy.h2, { bold = true }),
             spec.fg("Bold", theme.plugin_lazy.bold),
-            spec.ln("LazyProperty", "@property"),
+            spec.ln("LazyProp", "@property"),
+            spec.fg("LazyReasonCmd", theme.plugin_lazy.reason_cmd),
+            spec.fg("LazyReasonPlugin", theme.plugin_lazy.reason_plugin),
         },
     }
 end
