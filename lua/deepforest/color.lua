@@ -47,7 +47,7 @@ return {
     lavender2 = "#9c9bb0",
     lavender3 = "#7E7D96",
     lavender4 = "#835597",
-    lavender5 = "#8F8CB3"
+    lavender5 = "#8F8CB3",
 
     sky1 = "#00838F",
 
