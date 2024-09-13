@@ -96,6 +96,17 @@ return function(color, color_special)
         macro = color.soil3,
     }
 
+    ---@type DeepForestThemeTodo
+    result.todo = {
+        todo = color.sky1,
+        note = color.luster,
+        perf = color.lavender4,
+        warn = color.orange,
+        fix = color.red,
+        test = color.soil,
+        bgfg = color.gray9,
+    }
+
     --- syntax_tweaks get applied by setup()
     ---@type DeepForestThemeSyntax
     result.syntax_tweak = {}
@@ -178,8 +189,8 @@ return function(color, color_special)
 
     ---@class DeepForestThemePluginTrouble
     result.plugin_trouble = {
-        normal = color.gray5,
-        code = color.gray6,
+        normal = color.gray8,
+        code = color.gray9,
     }
 
     ---@class DeepForestThemePluginTree

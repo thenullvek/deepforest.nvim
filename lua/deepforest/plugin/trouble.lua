@@ -1,4 +1,5 @@
 local spec = require("deepforest.spec")
+local color = require("deepforest.color")
 
 ---@param theme DeepForestTheme
 ---@return DeepForestHighlightGroup
@@ -13,6 +14,10 @@ return function(theme)
             spec.fg("TroubleInformation", theme.diagnostic.info),
             spec.fg("TroubleTextError", theme.diagnostic.error),
             spec.fg("TroubleTextWarning", theme.diagnostic.warn),
+            spec.fg("TroubleTodoTag", theme.todo.todo),
+            spec.fg("TroubleDirectory", theme.fs.dir),
+            spec.fg("TroubleFile", theme.fs.file),
+            spec.fg("TroublePos", color.tree5),
         },
     }
 end
