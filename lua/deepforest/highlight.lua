@@ -205,11 +205,16 @@ local highlight = function(theme, color)
                 spec.fg("@comment.documentation", theme.syntax.comment),
 
                 -- treesitter markup
-                spec.fg("@markup.heading", theme.ui.fg_title),
+                spec.cf("@markup.heading.1", color.grass2, { bold = true }),
+                spec.cf("@markup.heading.2", color.grass3, { bold = true }),
+                spec.cf("@markup.heading.3", color.grass4, { bold = true }),
+                spec.cf("@markup.heading.4", color.grass5, { bold = true }),
+                spec.cf("@markup.heading.5", color.grass6, { bold = true }),
+                spec.cf("@markup.heading", color.grass2, { bold = true }),
                 spec.fg("@markup.quote", color.gray6),
-                spec.fg("@markup.strong", color.gray4),
-                spec.fg("@markup.italic", color.gray4),
-                spec.fg("@markup.strikethrough", color.gray4),
+                spec.cf("@markup.strong", color.gray8, { bold = true }),
+                spec.cf("@markup.italic", color.gray6, { italic = true }),
+                spec.cf("@markup.strikethrough", color.gray4, { strikethrough = true }),
                 spec.op("@markup.underline", {
                     underline = true,
                 }),
@@ -253,6 +258,7 @@ local highlight = function(theme, color)
                 spec.ln("@lsp.type.boolean", "@boolean"),
                 spec.ln("@lsp.type.enumMember", "@variable.member"),
                 spec.fg("@lsp.type.class", theme.syntax.class),
+                spec.cf("@lsp.type.macro", theme.syntax.macro, { bold = true }),
                 spec.ln("@lsp.mod.constructorOrDestructor", "@constructor"),
                 spec.bg("LspReferenceText", color.tree),
                 spec.bg("LspReferenceWrite", color.tree),

@@ -74,7 +74,7 @@ return function(color, color_special)
         func_method = color.soil1,
         func_def = color.soil,
         func_call = color.soil,
-        func_param = color.tree4,
+        func_param = color.tree6,
         func_builtin = color.soil2,
         class = color.tree5,
         special = color.lack,
@@ -93,6 +93,7 @@ return function(color, color_special)
         label = color.lavender,
         property = color.tree1,
         ctor_dtor = color.sakura,
+        macro = color.soil3,
     }
 
     --- syntax_tweaks get applied by setup()
