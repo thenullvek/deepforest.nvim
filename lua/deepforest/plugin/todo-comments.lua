@@ -7,13 +7,13 @@ return function(theme)
     return {
         plugin_name = "todo_comments",
         highlight = {
-            spec.co("TodoBgTodo", color.gray8, color.sky1, { bold = true }),
+            spec.co("TodoBgTodo", color.gray9, color.sky1, { bold = true }),
             spec.fg("TodoFgTodo", color.sky1),
             spec.co("TodoBgNote", color.black, color.luster, { bold = true }),
             spec.fg("TodoFgNote", color.luster),
-            spec.co("TodoBgPerf", color.gray8, color.lavender4, { bold = true }),
+            spec.co("TodoBgPerf", color.gray9, color.lavender4, { bold = true }),
             spec.fg("TodoFgPerf", color.lavender4),
-            spec.co("TodoBgWarn", color.gray8, theme.log.warn, { bold = true }),
+            spec.co("TodoBgWarn", color.black, theme.log.warn, { bold = true }),
             spec.fg("TodoFgWarn", theme.log.warn),
             spec.ln("TodoBgHack", "TodoBgWarn"),
             spec.ln("TodoFgHack", "TodoFgWarn"),
