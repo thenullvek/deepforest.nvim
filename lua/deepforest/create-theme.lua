@@ -22,7 +22,7 @@ return function(color, color_special)
         fg_button_active = color.gray4,
         bg_button_active = color.gray8,
 
-        fg_title = color.gray5,
+        fg_title = color.tree8,
 
         fg_statusline_nc = color.gray4,
         bg_statusline_nc = color.gray1,
@@ -183,9 +183,9 @@ return function(color, color_special)
 
     ---@class DeepForestThemePluginLazy
     result.plugin_lazy = {
-        special = color.lavender,
+        special = color.lavender5,
         comment = color.tree2,
-        bold = color.sakura,
+        bold = color.sakura2,
         h2 = color.grass4,
         reason_cmd = color.soil2,
         reason_plugin = color.lavender2,

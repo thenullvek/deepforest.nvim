@@ -28,6 +28,7 @@ return {
     tree4 = "#26594a",
     tree5 = "#5B9CA2",
     tree7 = "#0A1714",
+    tree8 = "#439985",
     grass = "#789978",
     grass1= "#879c8b",
     grass2= "#C8E6C9",
@@ -46,9 +47,11 @@ return {
     lavender2 = "#9c9bb0",
     lavender3 = "#7E7D96",
     lavender4 = "#835597",
+    lavender5 = "#8F8CB3"
 
     sky1 = "#00838F",
 
     rosa = "#a68892",
     sakura = "#F8BBD0",
+    sakura2 = "#D9A3B6"
 }
