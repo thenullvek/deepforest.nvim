@@ -138,7 +138,7 @@ return function(color, color_special)
     ---@class DeepForestThemeFS
     result.fs = {
         dir = color.tree2,
-        file = color.luster,
+        file = color.tree5,
         exec = color.green,
         link = color.lack,
         binary_data = color.gray7,
@@ -190,7 +190,7 @@ return function(color, color_special)
     ---@class DeepForestThemePluginTrouble
     result.plugin_trouble = {
         normal = color.grass2,
-        code = color.gray9,
+        code = color.lavender3,
     }
 
     ---@class DeepForestThemePluginTree

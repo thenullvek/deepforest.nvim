@@ -21,6 +21,7 @@ return function(theme)
             spec.fg("TroubleText", color.gray9),
             spec.fg("TroubleTodoFilename", theme.fs.file),
             spec.ln("TroubleDiagnosticsBasename", "TroubleTodoFilename"),
+            spec.ln("TroubleDiagnosticsItemSource", "TroubleCode"),
         },
     }
 end
