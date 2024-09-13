@@ -138,7 +138,7 @@ return function(color, color_special)
     ---@class DeepForestThemeFS
     result.fs = {
         dir = color.tree2,
-        file = color.tree5,
+        file = color.tree6,
         exec = color.green,
         link = color.lack,
         binary_data = color.gray7,

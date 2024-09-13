@@ -4,9 +4,9 @@
 
 ---@class DeepForestColorSpecial
 return {
-    main_background = "#101010",
-    menu_background = "#191919",
-    popup_background = "#1A1A1A",
+    main_background = "#0A0A0A",
+    menu_background = "#141414",
+    popup_background = "#191919",
     statusline = "#242424",
     comment = "#3A3A3A",
     exception = "#505050",
