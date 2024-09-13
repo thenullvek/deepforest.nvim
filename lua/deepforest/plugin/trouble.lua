@@ -18,7 +18,9 @@ return function(theme)
             spec.fg("TroubleDirectory", theme.fs.dir),
             spec.fg("TroubleFile", theme.fs.file),
             spec.fg("TroublePos", color.tree5),
-            spec.fg("TroubleText", theme.ui.fg_popup),
+            spec.fg("TroubleText", color.gray9),
+            spec.fg("TroubleTodoFilename", theme.fs.file),
+            spec.ln("TroubleDiagnosticsBasename", "TroubleTodoFilename"),
         },
     }
 end

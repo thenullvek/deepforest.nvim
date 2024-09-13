@@ -137,12 +137,12 @@ return function(color, color_special)
 
     ---@class DeepForestThemeFS
     result.fs = {
-        dir = color.gray5,
+        dir = color.tree2,
         file = color.luster,
         exec = color.green,
         link = color.lack,
-        binary_data = color.gray6,
-        socket = color.gray6,
+        binary_data = color.gray7,
+        socket = color.gray7,
     }
 
     ---@class DeepForestThemeDiff
