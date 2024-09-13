@@ -41,7 +41,7 @@ return function(color, color_special)
 
         fg_border = color.gray4,
         bg_colorcolumn = color.gray1,
-        bg_cursorline = color.gray2,
+        bg_cursorline = "#171717",
 
         bg_visual = color.gray8,
         fg_visual = color.black,
