@@ -7,6 +7,9 @@ const std = @import("std");
 // HACK: this is an example comment
 //  FIX: this is an example comment
 //  BUG: this is an example comment
+//  XXX: this is an example comment
+// FIXME: this is an example comment
+// TEST: this is an example comment
 
 pub fn main() !void {
     std.debug.log("hello lackluster!", .{});

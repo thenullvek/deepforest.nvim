@@ -46,6 +46,8 @@ return {
     lavender3 = "#7E7D96",
     lavender4 = "#835597",
 
+    sky1 = "#00838F",
+
     rosa = "#a68892",
     sakura = "#F8BBD0",
 }
