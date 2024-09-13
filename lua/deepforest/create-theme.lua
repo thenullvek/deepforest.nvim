@@ -148,8 +148,8 @@ return function(color, color_special)
     ---@class DeepForestThemeDiff
     result.diff = {
         add = color.green,
-        change = color.gray6,
-        delete = color.orange,
+        change = color.soil1,
+        delete = color.red,
         info = color.blue,
     }
 
