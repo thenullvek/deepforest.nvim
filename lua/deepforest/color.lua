@@ -2,6 +2,7 @@
 return {
     lack = "#708090",
     luster = "#deeeed",
+    forest = "#4B958C",
     orange = "#ffaa88",
     yellow = "#abab77",
     green = "#789978",

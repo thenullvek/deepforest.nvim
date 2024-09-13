@@ -204,8 +204,9 @@ return function(color, color_special)
 
     ---@class DeepForestThemePluginMason
     result.plugin_mason = {
-        highlight = color.lack,
-        header = color.lack,
+        highlight = color.lavender5,
+        header = color.lavender,
+        header2 = color.forest,
     }
 
     ---@class DeepForestThemePluginFlash
