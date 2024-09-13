@@ -295,6 +295,9 @@ local highlight = function(theme, color)
                 spec.ln("lispSymbol", "@variable"),
                 spec.ln("lispDecl", "@keyword"),
 
+                -- lua
+                spec.fg("@punctuation.bracket.lua", theme.syntax.punctuation),
+
                 -- zsh
                 spec.fg("zshFunction", theme.syntax.func_def),
 
