@@ -183,8 +183,10 @@ return function(color, color_special)
 
     ---@class DeepForestThemePluginLazy
     result.plugin_lazy = {
-        special = color.gray5,
+        special = color.lavender4,
         comment = color.lack,
+        bold = color.sakura,
+        h2 = color.grass4,
     }
 
     ---@class DeepForestThemePluginTrouble

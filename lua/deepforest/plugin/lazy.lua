@@ -12,6 +12,9 @@ return function(theme)
             spec.fg("LazySpecial", theme.plugin_lazy.special),
             spec.fg("LazyComment", theme.plugin_lazy.comment),
             spec.ln("LazyH1", "LazyButtonActive"),
+            spec.cf("LazyH2", theme.plugin_lazy.h2, { bold = true }),
+            spec.fg("Bold", theme.plugin_lazy.bold),
+            spec.ln("LazyProperty", "@property"),
         },
     }
 end
