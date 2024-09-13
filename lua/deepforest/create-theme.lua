@@ -53,8 +53,8 @@ return function(color, color_special)
         bg_scrollbar = color.gray3,
         fg_scrollbar = color.gray5,
 
-        fg_popup = color.gray6,
-        bg_popup = color_special.popup_background,
+        fg_popup = color.grass2,
+        bg_popup = color.tree6,
 
         fg_menu = color.gray6,
         bg_menu = color_special.menu_background,
@@ -189,7 +189,7 @@ return function(color, color_special)
 
     ---@class DeepForestThemePluginTrouble
     result.plugin_trouble = {
-        normal = color.gray8,
+        normal = color.grass2,
         code = color.gray9,
     }
 

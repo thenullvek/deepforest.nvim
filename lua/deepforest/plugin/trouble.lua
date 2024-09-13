@@ -14,10 +14,11 @@ return function(theme)
             spec.fg("TroubleInformation", theme.diagnostic.info),
             spec.fg("TroubleTextError", theme.diagnostic.error),
             spec.fg("TroubleTextWarning", theme.diagnostic.warn),
-            spec.fg("TroubleTodoTag", theme.todo.todo),
+            spec.cf("TroubleTodoTag", theme.plugin_trouble.normal, { bold = true }),
             spec.fg("TroubleDirectory", theme.fs.dir),
             spec.fg("TroubleFile", theme.fs.file),
             spec.fg("TroublePos", color.tree5),
+            spec.fg("TroubleText", theme.ui.fg_popup),
         },
     }
 end
