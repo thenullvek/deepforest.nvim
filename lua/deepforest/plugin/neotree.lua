@@ -8,7 +8,8 @@ return function(theme)
         highlight = {
             spec.fg("NeoTreeFileName", theme.fs.file),
             spec.cf("NeoTreeGitUntracked", theme.diff.add, { italic = true, bold = true }),
-
+            spec.fg("NeoTreeGitStaged", theme.plugin_neotree.staged),
+            spec.fg("NeoTreeGitModified", theme.diff.change),
         },
     }
 end

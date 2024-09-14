@@ -138,7 +138,7 @@ return function(color, color_special)
     ---@class DeepForestThemeFS
     result.fs = {
         dir = color.tree2,
-        file = color.gray8,
+        file = color.gray7,
         exec = color.green,
         link = color.lack,
         binary_data = color.gray7,
@@ -252,7 +252,7 @@ return function(color, color_special)
 
     ---@class DeepForestThemePluginNeotree
     result.plugin_neotree = {
-
+        staged = color.lavender1,
     }
     return result
 end
