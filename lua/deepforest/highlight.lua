@@ -381,6 +381,7 @@ local highlight = function(theme, color)
         require("deepforest.plugin.dashboard")(theme),
         require("deepforest.plugin.scrollbar")(theme),
         require("deepforest.plugin.bufferline")(theme),
+        require("deepforest.plugin.neotree")(theme),
         -- TODO: decide if each individual mini plugin should be opt in
         -- can wait until all are supported before deciding
         require("deepforest.plugin.mini")(theme),

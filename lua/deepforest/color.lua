@@ -26,7 +26,7 @@ return {
     tree2 = "#86A8A7",
     tree6 = "#A9CEC2",
     tree3 = "#48695E",
-    tree4 = "#26594a",
+    tree4 = "#2A6353",
     tree5 = "#5B9CA2",
     tree7 = "#0A1714",
     tree8 = "#439985",

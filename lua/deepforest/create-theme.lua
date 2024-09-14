@@ -233,7 +233,7 @@ return function(color, color_special)
         fg_dash = color.gray4,
     }
 
-    ---@clas DeepForestThemePluginScrollbar
+    ---@class DeepForestThemePluginScrollbar
     result.plugin_scrollbar = {
         bg = color.gray2,
         cursor = color.gray4,
@@ -248,6 +248,11 @@ return function(color, color_special)
         green = "#666666",
         violet = "#BBBBBB",
         cyan = "#DDDDDD",
+    }
+
+    ---@class DeepForestThemePluginNeotree
+    result.plugin_neotree = {
+
     }
     return result
 end

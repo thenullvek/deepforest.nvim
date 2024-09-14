@@ -172,6 +172,7 @@ local default_config = {
         trouble = false,
         which_key = false,
         yanky = false,
+        neotree = false,
     },
 }
 
