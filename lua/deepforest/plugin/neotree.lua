@@ -7,7 +7,7 @@ return function(theme)
         plugin_name = "neotree",
         highlight = {
             spec.fg("NeoTreeFileName", theme.fs.file),
-            spec.cf("NeoTreeGitUntracked", theme.diff.add, { italic = true }),
+            spec.cf("NeoTreeGitUntracked", theme.diff.add, { italic = true, bold = true }),
 
         },
     }

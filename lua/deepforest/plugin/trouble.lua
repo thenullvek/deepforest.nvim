@@ -16,7 +16,7 @@ return function(theme)
             spec.fg("TroubleTextWarning", theme.diagnostic.warn),
             spec.cf("TroubleTodoTag", theme.plugin_trouble.normal, { bold = true }),
             spec.fg("TroubleDirectory", theme.fs.dir),
-            spec.fg("TroubleFile", theme.fs.file),
+            spec.fg("TroubleFile", color.tree6),
             spec.fg("TroublePos", color.tree5),
             spec.fg("TroubleText", color.gray9),
             spec.fg("TroubleTodoFilename", theme.fs.file),
