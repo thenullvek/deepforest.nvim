@@ -47,7 +47,7 @@ return function(color, color_special)
         fg_visual = color.black,
 
         fg_search = color.gray9,
-        bg_search_item = color.grass2,
+        bg_search_item = color.grass5,
         bg_search_cur = color.forest1,
 
         bg_scrollbar = color.gray3,
