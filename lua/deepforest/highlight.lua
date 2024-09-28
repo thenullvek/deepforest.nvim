@@ -79,11 +79,11 @@ local highlight = function(theme, color)
                 -- SYNTAX
                 spec.fg("Identifier", theme.syntax.type),
                 spec.fg("Function", theme.syntax.func_call),
-                spec.cf("Type", theme.syntax.type, { bold = true}),
+                spec.cf("Type", theme.syntax.type, { bold = true }),
                 spec.fg("Variable", theme.syntax.var),
                 spec.fg("Statement", theme.syntax.keyword),
                 spec.fg("Special", theme.syntax.special),
-                spec.cf("Keyword", theme.syntax.keyword, { bold = true}),
+                spec.cf("Keyword", theme.syntax.keyword, { bold = true }),
                 spec.ln("Conditional", "Keyword"),
                 spec.ln("Repeat", "Keyword"),
                 spec.fg("Label", theme.syntax.label),
@@ -108,7 +108,7 @@ local highlight = function(theme, color)
                 -- COMMENT
                 spec.fg("Todo", theme.log.hint),
                 spec.fg("Question", theme.log.hint),
-                spec.cf("Comment", theme.syntax.comment, { italic = true}),
+                spec.cf("Comment", theme.syntax.comment, { italic = true }),
                 spec.fg("SpecialComment", theme.syntax.comment),
 
                 -- DIAGNOSTICS
@@ -210,6 +210,7 @@ local highlight = function(theme, color)
                 spec.cf("@markup.heading.3", color.grass4, { bold = true }),
                 spec.cf("@markup.heading.4", color.grass5, { bold = true }),
                 spec.cf("@markup.heading.5", color.grass6, { bold = true }),
+                spec.cf("@markup.heading.6", color.grass6, { bold = true }),
                 spec.cf("@markup.heading", color.grass2, { bold = true }),
                 spec.fg("@markup.quote", color.gray6),
                 spec.cf("@markup.strong", color.gray8, { bold = true }),
@@ -385,6 +386,7 @@ local highlight = function(theme, color)
         -- TODO: decide if each individual mini plugin should be opt in
         -- can wait until all are supported before deciding
         require("deepforest.plugin.mini")(theme),
+        require("deepforest.plugin.render-markdown")(theme),
     }
 end
 

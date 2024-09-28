@@ -96,7 +96,7 @@ return function(color, color_special)
         macro = color.soil3,
     }
 
-    ---@type DeepForestThemeTodo
+    ---@class DeepForestThemeTodo
     result.todo = {
         todo = color.sky1,
         note = color.luster,
@@ -253,6 +253,10 @@ return function(color, color_special)
     ---@class DeepForestThemePluginNeotree
     result.plugin_neotree = {
         staged = color.lavender1,
+    }
+
+    result.render_markdown = {
+        code_bg = color.gray3,
     }
     return result
 end
