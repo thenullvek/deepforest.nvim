@@ -256,7 +256,7 @@ return function(color, color_special)
     }
 
     result.render_markdown = {
-        code_bg = color.gray3,
+        code_bg = color.gray2,
     }
     return result
 end
