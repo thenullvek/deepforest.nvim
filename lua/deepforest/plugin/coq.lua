@@ -12,6 +12,7 @@ return function(theme)
             spec.fg("coqProofPunctuation", theme.syntax.punctuation),
             spec.bg("CoqtailChecked", theme.plugin_coq.checked_bg),
             spec.cf("coqTactic", theme.syntax.func_builtin, { bold = true })
+            spec.ln("coqProofKwd", "@keyword")
         },
     }
 end
