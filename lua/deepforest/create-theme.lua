@@ -255,8 +255,14 @@ return function(color, color_special)
         staged = color.lavender1,
     }
 
-    result.render_markdown = {
+    ---@class DeepForestThemePluginRenderMarkdown
+    result.plugin_render_markdown = {
         code_bg = color.gray2,
+    }
+
+    ---@class DeepForestThemePluginCoq
+    result.plugin_coq = {
+        checked_bg = color.tree7,
     }
     return result
 end

@@ -387,6 +387,7 @@ local highlight = function(theme, color)
         -- can wait until all are supported before deciding
         require("deepforest.plugin.mini")(theme),
         require("deepforest.plugin.render-markdown")(theme),
+        require("deepforest.plugin.coq")(theme)
     }
 end
 
