@@ -11,7 +11,7 @@ return function(theme)
             spec.fg("coqVernacPunctuation", theme.syntax.punctuation),
             spec.fg("coqProofPunctuation", theme.syntax.punctuation),
             spec.bg("CoqtailChecked", theme.plugin_coq.checked_bg),
-            spec.cf("coqTactic", theme.syntax.func_builtin, { bold = true })
+            spec.cf("coqTactic", theme.syntax.func_builtin, { bold = true }),
             spec.ln("coqProofKwd", "@keyword")
         },
     }
