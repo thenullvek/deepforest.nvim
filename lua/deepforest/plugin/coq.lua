@@ -13,7 +13,7 @@ return function(theme)
             spec.bg("CoqtailChecked", theme.plugin_coq.checked_bg),
             spec.cf("coqTactic", theme.syntax.func_builtin, { bold = true }),
             spec.ln("coqProofKwd", "@keyword"),
-            spec.ln("coqThmName", "@function"),
+            spec.ln("coqThmName", "@variable"),
         },
     }
 end
