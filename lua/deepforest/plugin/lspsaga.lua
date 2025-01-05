@@ -7,7 +7,9 @@ return function(theme)
         plugin_name = "lspsaga",
         highlight = {
             spec.fg("SagaWinbarFileName", theme.fs.file),
-            spec.ln("SageWinbarFolder", "SagaWinbarFileName"),
+            spec.ln("SagaWinbarFolderName", "SagaWinbarFileName"),
+            spec.ln("SagaFileName", "SagaWinbarFileName"),
+            spec.ln("SagaFolderName", "SagaWinbarFolderName"),
         },
     }
 end
