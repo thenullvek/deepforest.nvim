@@ -8,6 +8,7 @@ return function(theme)
         highlight = {
             spec.ln("coqProofDelim", "@constructor"),
             spec.ln("coqNotationString", "@string"),
+            spec.fg("coqVernacPunctuation", theme.syntax.punctuation),
             spec.bg("CoqtailChecked", theme.plugin_coq.checked_bg),
         },
     }
